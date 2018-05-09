@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Paises</string>
+    <string name="app_name">Ciudades</string>
+    <string name="textNameHint">Nombre de la persona</string>
+    <string name="countryHint">Pais de la persona</string>
+    <string name="addPerson">agregar persona</string>
+    <string name="form">Formulario</string>
+    <string name="list">Lista</string>
 </resources>

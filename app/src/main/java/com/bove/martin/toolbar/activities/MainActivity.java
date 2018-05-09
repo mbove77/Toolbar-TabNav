@@ -1,12 +1,11 @@
 package com.bove.martin.toolbar.activities;
 
+import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
-import android.widget.Toast;
 
 import com.bove.martin.toolbar.R;
 import com.bove.martin.toolbar.adapters.PagerAdapter;
@@ -32,8 +31,8 @@ public class MainActivity extends AppCompatActivity implements Comunicacion {
         setSupportActionBar(myToolbar);
 
         tabLayout = findViewById(R.id.tabLayout);
-        tabLayout.addTab(tabLayout.newTab().setText("Formulario"));
-        tabLayout.addTab(tabLayout.newTab().setText("Lista"));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.form));
+        tabLayout.addTab(tabLayout.newTab().setText(R.string.list));
 
         tabLayout.setTabGravity(tabLayout.GRAVITY_FILL);
         tabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {

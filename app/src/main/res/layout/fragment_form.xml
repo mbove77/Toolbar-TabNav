@@ -21,14 +21,14 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
             android:ems="10"
-            android:hint="Nombre de la persona"
+            android:hint="@string/textNameHint"
             android:inputType="textPersonName" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
-            android:text="Pais de la persona" />
+            android:text="@string/countryHint" />
 
         <Spinner
             android:id="@+id/spinnerCountry"
@@ -44,7 +44,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:background="@color/colorAccent"
-        android:text="agregar persona"
+        android:text="@string/addPerson"
         android:textColor="#fff" />
 
 </RelativeLayout>
